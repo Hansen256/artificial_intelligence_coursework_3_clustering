@@ -8,10 +8,10 @@ This project implements a comprehensive customer segmentation analysis for a mal
 
 The analysis uses the Mall Customers dataset containing 200 customer records with the following features:
 
-- **CustomerID**: Unique identifier for each customer
+- **CustomerID**: A unique identifier for each customer
 - **Genre**: Gender (Male/Female)
 - **Age**: Customer age in years (18-70)
-- **Annual Income (k$)**: Annual income in thousands of dollars (15-137k)
+- **Annual Income ($k)**: Annual income in thousands of dollars (15-137k)
 - **Spending Score (1-100)**: Behavioral metric indicating spending behavior and loyalty (1-99)
 
 ## Project Structure

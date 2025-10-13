@@ -72,7 +72,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn scipy
 
    ```bash
    git clone https://github.com/Hansen256/artificial_intelligence_coursework_3_clustering.git
-   cd artificial_intelligence_coursework_3_clustering
    ```
 
 2. **Install Dependencies**

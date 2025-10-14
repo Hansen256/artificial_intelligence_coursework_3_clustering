@@ -1,17 +1,16 @@
 # Mall Customer Segmentation Analysis: K-means vs Hierarchical Clustering
 
-## A Comprehensive Business Analytics Report
+##  Report
 
 ---
 
 **Course:** Artificial Intelligence Coursework 4  
-**Date:** October 13, 2025  
 **Analysis Type:** Comparative Clustering Study  
-**Dataset:** Mall Customers (200 records)  
+**Dataset:** Mall Customers 
 
 ---
 
-## Executive Summary
+## Introduction
 
 This report presents a comprehensive analysis of mall customer segmentation using two prominent clustering algorithms: K-means and Hierarchical clustering. The study analyzed 200 customer records across demographic and behavioral dimensions to identify distinct customer segments for targeted marketing strategies.
 
@@ -655,124 +654,3 @@ This clustering analysis provides a solid foundation for data-driven customer st
 
 The mall retail environment presents unique opportunities for customer segmentation given the diverse customer base and multiple touchpoints. By leveraging these insights and maintaining focus on customer value creation, businesses can achieve sustainable competitive advantage through superior customer understanding and targeted engagement strategies.
 
----
-
-## 10. References & Appendices
-
-### References
-
-Chen, L., & Zhang, M. (2020). Hierarchical clustering approaches in retail customer segmentation: A comparative study. *Journal of Business Analytics*, 15(3), 234-251.
-
-Kumar, S., Patel, R., & Williams, J. (2019). K-means clustering for customer segmentation in retail environments: Best practices and performance evaluation. *International Journal of Data Mining*, 8(2), 112-128.
-
-Rodriguez, A., & Thompson, K. (2021). Statistical validation methods for unsupervised learning in business applications. *Business Intelligence Quarterly*, 12(4), 67-84.
-
-Smith, D., Johnson, P., & Lee, C. (2020). Customer segmentation strategies in modern retail: From demographics to behavioral analytics. *Retail Management Review*, 28(1), 45-62.
-
-### Appendix A: Technical Specifications
-
-**Software Environment:**
-
-- Python 3.9.13
-- Pandas 2.3.2 (data manipulation)
-- Scikit-learn 1.6.1 (clustering algorithms)
-- Matplotlib 3.9.4 & Seaborn 0.13.2 (visualization)
-- SciPy 1.13.1 (statistical testing)
-
-**Hardware Specifications:**
-
-- Analysis performed on standard business laptop
-- Processing time: < 5 minutes for complete analysis
-- Memory usage: < 1GB for dataset and computations
-
-### Appendix B: Statistical Test Results
-
-**Detailed ANOVA Results for K-means (k=8):**
-
-``` txt
-Feature: Age
-F-statistic: 45.234, p-value: < 0.001
-Between-group variance significantly exceeds within-group variance
-
-Feature: Annual Income
-F-statistic: 89.671, p-value: < 0.001
-Strong evidence of income differences across clusters
-
-Feature: Spending Score
-F-statistic: 156.423, p-value: < 0.001
-Highly significant spending behavior differences
-
-Feature: Income-to-Spend Ratio
-F-statistic: 67.891, p-value: < 0.001
-Significant differences in spending efficiency across clusters
-```
-
-### Appendix C: Cluster Centroids (Detailed)
-
-**K-means Cluster Centroids (Original Scale):**
-
-``` txt
-Cluster 0: Age=33.3, Income=$87.1k, Spending=82.7, Ratio=1.12
-Cluster 1: Age=32.8, Income=$78.2k, Spending=77.3, Ratio=1.08
-Cluster 2: Age=41.2, Income=$91.5k, Spending=42.1, Ratio=2.34
-Cluster 3: Age=52.7, Income=$55.3k, Spending=25.8, Ratio=2.89
-Cluster 4: Age=26.4, Income=$28.9k, Spending=78.9, Ratio=0.38
-Cluster 5: Age=38.1, Income=$58.7k, Spending=51.2, Ratio=1.21
-Cluster 6: Age=29.8, Income=$35.2k, Spending=22.4, Ratio=1.78
-Cluster 7: Age=45.3, Income=$82.4k, Spending=18.7, Ratio=4.67
-```
-
-### Appendix D: Visualization Catalog
-
-The analysis produced comprehensive visualizations including:
-
-1. Distribution histograms and boxplots for all variables
-2. Correlation matrix heatmap
-3. Pairwise scatter plots by gender
-4. K-means evaluation metrics across different k values
-5. Hierarchical clustering dendrograms
-6. 3D customer segment visualization
-7. Cluster comparison charts
-8. Demographic distribution by cluster
-
-### Appendix E: Implementation Checklist
-
-#### Phase 1: Foundation (Weeks 1-4)
-
-- [ ] Staff training on customer segment identification
-- [ ] Basic customer data collection system implementation
-- [ ] Initial targeted marketing campaign development
-- [ ] Performance baseline establishment
-
-#### Phase 2: Development (Weeks 5-12)
-
-- [ ] Segment-specific product line development
-- [ ] Advanced analytics infrastructure setup
-- [ ] Customer feedback integration system
-- [ ] Loyalty program tier implementation
-
-#### Phase 3: Optimization (Weeks 13-24)
-
-- [ ] A/B testing framework for segment strategies
-- [ ] Predictive model development for segment migration
-- [ ] Omnichannel integration completion
-- [ ] Competitive benchmarking system
-
-#### Phase 4: Scaling (Months 7-12)
-
-- [ ] Multi-location rollout
-- [ ] Real-time analytics implementation
-- [ ] Advanced personalization engine deployment
-- [ ] ROI measurement and optimization framework
-
----
-
-*This report represents a comprehensive analysis of mall customer segmentation using advanced clustering techniques. The findings provide actionable insights for improving customer understanding and business performance through data-driven strategy development.*
-
-**Document Statistics:**
-
-- **Word Count**: Approximately 5,000 words
-- **Page Count**: 10 pages (standard business format)
-- **Analysis Depth**: Comprehensive methodology and business insights
-- **Validation Level**: Statistical significance testing included
-- **Business Focus**: Actionable recommendations and implementation guidance

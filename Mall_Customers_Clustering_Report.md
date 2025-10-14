@@ -1,15 +1,5 @@
 # Mall Customer Segmentation Analysis: K-means vs Hierarchical Clustering
 
-## Report
-
----
-
-**Course:** Artificial Intelligence Coursework 4  
-**Analysis Type:** Comparative Clustering Study  
-**Dataset:** Mall Customers
-
----
-
 ## Introduction
 
 This report presents an analysis of mall customer segmentation using two  clustering algorithms: K-means and Hierarchical clustering. The study analyzed 200 customer records across demographic and behavioral dimensions to identify distinct customer segments for targeted marketing strategies.

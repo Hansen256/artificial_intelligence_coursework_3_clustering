@@ -1,18 +1,18 @@
 # Mall Customer Segmentation Analysis: K-means vs Hierarchical Clustering
 
-##  Report
+## Report
 
 ---
 
 **Course:** Artificial Intelligence Coursework 4  
 **Analysis Type:** Comparative Clustering Study  
-**Dataset:** Mall Customers 
+**Dataset:** Mall Customers
 
 ---
 
 ## Introduction
 
-This report presents a comprehensive analysis of mall customer segmentation using two prominent clustering algorithms: K-means and Hierarchical clustering. The study analyzed 200 customer records across demographic and behavioral dimensions to identify distinct customer segments for targeted marketing strategies.
+This report presents an analysis of mall customer segmentation using two  clustering algorithms: K-means and Hierarchical clustering. The study analyzed 200 customer records across demographic and behavioral dimensions to identify distinct customer segments for targeted marketing strategies.
 
 **Key Findings:**
 
@@ -38,7 +38,6 @@ The analysis reveals clear opportunities for targeted marketing, with segments r
 7. [Business Recommendations](#7-business-recommendations)
 8. [Limitations & Future Work](#8-limitations--future-work)
 9. [Conclusion](#9-conclusion)
-10. [References & Appendices](#10-references--appendices)
 
 ---
 
@@ -55,7 +54,7 @@ Traditional demographic segmentation often fails to capture the complexity of mo
 Mall retailers face several challenges:
 
 - **Diverse customer base** with varying income levels, age groups, and spending behaviors
-- **Limited marketing budgets** requiring targeted rather than broad-spectrum approaches
+- **Limited marketing budgets** requiring targeted advertising rather than appealing to a spectrum of consumers
 - **Need for personalization** in an increasingly competitive retail environment
 - **Lack of clear customer segments** for strategic decision-making
 
@@ -85,7 +84,7 @@ The analysis utilizes a mall customer dataset containing 200 customer records wi
 
 ### 2.1 Clustering in Business Analytics
 
-Clustering analysis has been extensively applied in customer segmentation research. Kumar et al. (2019) demonstrated the effectiveness of K-means clustering in retail customer segmentation, while Chen and Zhang (2020) highlighted the advantages of hierarchical methods for understanding customer relationship structures.
+Clustering analysis has been applied in customer segmentation research.  demonstrated the effectiveness of K-means clustering in retail customer segmentation, highlighted the advantages of hierarchical methods for understanding customer relationship structures.
 
 **K-means Clustering** is widely used due to its computational efficiency and interpretability. The algorithm partitions data into k clusters by minimizing within-cluster sum of squares (WCSS). Its effectiveness depends on proper selection of k and assumes spherical cluster shapes.
 
@@ -109,7 +108,7 @@ Clustering analysis has been extensively applied in customer segmentation resear
 
 Statistical tests validate whether identified clusters represent truly different groups:
 
-- **ANOVA (F-test)** for comparing means across groups on continuous variables
+- **ANOVA (F-test)**  is used  for comparing means (averages) across groups on continuous variables
 - **Kruskal-Wallis test** as a non-parametric alternative when assumptions are violated
 - **Chi-square tests** for examining associations between categorical variables and cluster membership
 
@@ -653,4 +652,3 @@ Based on the analysis, immediate priorities should include:
 This clustering analysis provides a solid foundation for data-driven customer strategy development. The combination of rigorous analytical methodology with practical business insights creates a roadmap for improved customer understanding and business performance. Success will depend on thoughtful implementation, continuous refinement, and integration with broader business strategy.
 
 The mall retail environment presents unique opportunities for customer segmentation given the diverse customer base and multiple touchpoints. By leveraging these insights and maintaining focus on customer value creation, businesses can achieve sustainable competitive advantage through superior customer understanding and targeted engagement strategies.
-
